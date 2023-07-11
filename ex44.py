@@ -27,10 +27,10 @@ def Hex(s, dict):
              l.append(dict[i])
     return l
 
-def Prime(s):
-    l = Hex(s, dict)
+def Prime(s = ""):
+    h = Hex(s, dict)
     res = []
-    for i in l:
+    for i in h:
         c = 0
         for j in range(1,i):
             if i %j == 0:
