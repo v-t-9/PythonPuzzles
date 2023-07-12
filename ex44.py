@@ -27,7 +27,7 @@ def Hex(s, dict):
              l.append(dict[i])
     return l
 
-def Prime(s = ""):
+def Prime(s):
     h = Hex(s, dict)
     res = []
     for i in h:
