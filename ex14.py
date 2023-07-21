@@ -13,5 +13,7 @@ def lengthString(l):
     for i in l:
         lengths.append(len(i))
     return lengths
-print(lengthString(l1))
-print(lengthString(l2))
+
+if __name__ == "__main__":
+    print(lengthString(l1))
+    print(lengthString(l2))

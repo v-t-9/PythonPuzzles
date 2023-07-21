@@ -24,7 +24,8 @@ def sumNum(l, k):
             res = res + i
     return res
 
-print(sumNum(l1,k1))
-print(sumNum(l2,k2))
-print(sumNum(l3,k3))
-print(sumNum(l4,k4))
+if __name__ == "__main__":
+    print(sumNum(l1,k1))
+    print(sumNum(l2,k2))
+    print(sumNum(l3,k3))
+    print(sumNum(l4,k4))

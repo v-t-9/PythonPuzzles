@@ -21,11 +21,13 @@ def distinctNonConsecutive(l):
     if len(listUnique)>=4:
         for i in l:
             if i != (i+1):
-                return print(True)
+                return True
             else:
-                return print(False)
+                return False
     else:
-        return print(False)
-distinctNonConsecutive(l1)
-distinctNonConsecutive(l2)
-distinctNonConsecutive(l3)
+        return False
+    
+if __name__ == "__main__":
+    print(distinctNonConsecutive(l1))
+    print(distinctNonConsecutive(l2))
+    print(distinctNonConsecutive(l3))

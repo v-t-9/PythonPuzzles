@@ -25,8 +25,10 @@ def divisible_by_9_or_15(n):
     div = [str(l[i]) for i in range(len(l)) if l[i] % 15 == 0 or l[i] % 9 == 0]
     res = [[int(i),j] for i in div for j in range(len(i)) if i[j] == "5"]
     return res
-print(divisible_by_9_or_15(n1))
-print(divisible_by_9_or_15(n2))
-print(divisible_by_9_or_15(n3))
-print(divisible_by_9_or_15(n4))
-print(divisible_by_9_or_15(n5))
+
+if __name__ == "__main__":
+    print(divisible_by_9_or_15(n1))
+    print(divisible_by_9_or_15(n2))
+    print(divisible_by_9_or_15(n3))
+    print(divisible_by_9_or_15(n4))
+    print(divisible_by_9_or_15(n5))

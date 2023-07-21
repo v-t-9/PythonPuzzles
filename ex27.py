@@ -12,5 +12,7 @@ l2= [12, -2, 14, 3, -15, 10, -45, 3, 30]
 def meanSquaredDeviation(l):
     d = sum(l)/len(l)
     return d
-print(meanSquaredDeviation(l1))
-print(meanSquaredDeviation(l2))
+
+if __name__ == "__main__":
+    print(meanSquaredDeviation(l1))
+    print(meanSquaredDeviation(l2))

@@ -25,7 +25,8 @@ def biggest_even_number(m,n):
         if i % 2 == 0:
             return i
 
-print(biggest_even_number(m1, n1))
-print(biggest_even_number(m2, n2))
-print(biggest_even_number(m3, n3))
-print(biggest_even_number(m4, n4))
+if __name__ == "__main__":
+    print(biggest_even_number(m1, n1))
+    print(biggest_even_number(m2, n2))
+    print(biggest_even_number(m3, n3))
+    print(biggest_even_number(m4, n4))

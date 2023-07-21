@@ -13,6 +13,8 @@ def longestString(l):
     res = lengthString(l)
     maximo = max(res)
     pos = res.index(maximo)
-    return print(l[pos])
-longestString(l1)
-longestString(l2)
+    return l[pos]
+
+if __name__ == "__main__":
+    print(longestString(l1))
+    print(longestString(l2))

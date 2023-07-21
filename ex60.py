@@ -47,9 +47,9 @@ def adjacent_to_prime(l):
     res = list(res1)
     res.sort()
     return res
-
-print(adjacent_to_prime(l1))
-print(adjacent_to_prime(l2))
-print(adjacent_to_prime(l3))
+if __name__ == "__main__":
+    print(adjacent_to_prime(l1))
+    print(adjacent_to_prime(l2))
+    print(adjacent_to_prime(l3))
 
 

@@ -29,7 +29,9 @@ def even_palindromes(n):
         if num == num[::-1]:
            res.append(l[i])
     return res
-print(even_palindromes(n1))
-print(even_palindromes(n2))
-print(even_palindromes(n3))
-print(even_palindromes(n4))
+
+if __name__ == "__main__":
+    print(even_palindromes(n1))
+    print(even_palindromes(n2))
+    print(even_palindromes(n3))
+    print(even_palindromes(n4))

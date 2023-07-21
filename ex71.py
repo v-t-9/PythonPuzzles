@@ -12,5 +12,7 @@ def num_between_pair(l, sep):
     l1 = [ [i , sep] for i in l]
     res = [ j for i in l1 for j in i]
     return res[:len(res)-1]
-print(num_between_pair(l1, sep1))
-print(num_between_pair(l2, sep2))
+
+if __name__ == "__main__":
+    print(num_between_pair(l1, sep1))
+    print(num_between_pair(l2, sep2))

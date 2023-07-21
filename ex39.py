@@ -13,5 +13,7 @@ def sumZero(l):
         else:
             res.append(False)
     return res
-print(sumZero(l1))
-print(sumZero(l2))
+
+if __name__ == "__main__":
+    print(sumZero(l1))
+    print(sumZero(l2))

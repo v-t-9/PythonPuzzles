@@ -14,5 +14,7 @@ def sortedList(l):
     result = sorted(l, key = sumOfDigits)
     return result
 
-print(sortedList(l1))
-print(sortedList(l2))
+
+if __name__ == "__main__":
+    print(sortedList(l1))
+    print(sortedList(l2))

@@ -20,14 +20,15 @@ l4 =[19, 15, 11, 7, 5, 6, 2]
 
 def lengthAnd5Element(l):
     if len(l) == 8 and l.count(l[5])==3:
-        return print(True)
+        return True
     else:
-        return print(False)
+        return False
     
-lengthAnd5Element(l1)
-lengthAnd5Element(l2)
-lengthAnd5Element(l3)
-lengthAnd5Element(l4)
+if __name__ == "__main__":
+    print(lengthAnd5Element(l1))
+    print(lengthAnd5Element(l2))
+    print(lengthAnd5Element(l3))
+    print(lengthAnd5Element(l4))
 
 
 

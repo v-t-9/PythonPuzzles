@@ -23,6 +23,8 @@ def maximum(l):
                   res.append(max)
         return res
 
-print(maximum(l1))
-print(maximum(l2))
-print(maximum(l3))
+
+if __name__ == "__main__":
+      print(maximum(l1))
+      print(maximum(l2))
+      print(maximum(l3))

@@ -14,4 +14,5 @@ def largestNumberPoint(l):
             r.append(i)
     return max(r)
 
-print(largestNumberPoint(l1))
+if __name__ == "__main__":
+    print(largestNumberPoint(l1))

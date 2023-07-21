@@ -24,6 +24,6 @@ def rescale(l):
             res.append(x)
     return res
 
-
-print(rescale(l1))
-print(rescale(l2))
+if __name__ == "__main__":
+    print(rescale(l1))
+    print(rescale(l2))

@@ -20,6 +20,8 @@ def product_units_digits(n):
         n1 = n2
         n2 = num
     return res
-print(product_units_digits(n1))
-print(product_units_digits(n2))
-print(product_units_digits(n3))
+
+if __name__ == "__main__":
+    print(product_units_digits(n1))
+    print(product_units_digits(n2))
+    print(product_units_digits(n3))

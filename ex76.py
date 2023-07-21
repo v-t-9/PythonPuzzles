@@ -24,6 +24,8 @@ def largest_prime_sum(l):
         return [l.index(ma), su]
     else:
         return [l.index(ma), ma]
-print(largest_prime_sum(l1))
-print(largest_prime_sum(l2))
-print(largest_prime_sum(l3))
+    
+if __name__ == "__main__":
+    print(largest_prime_sum(l1))
+    print(largest_prime_sum(l2))
+    print(largest_prime_sum(l3))

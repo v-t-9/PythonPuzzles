@@ -32,7 +32,8 @@ def minValueIndex(l):
             if l[i] ==mi:
                 pos = i
         return [mi, pos]
-
-print(minValueIndex(l1))
-print(minValueIndex(l2))
-print(minValueIndex(l3))
+    
+if __name__ == "__main__":
+    print(minValueIndex(l1))
+    print(minValueIndex(l2))
+    print(minValueIndex(l3))

@@ -23,13 +23,14 @@ def nineteenAndFive(l):
             count5 = count5 + 1
 
     if count19 == 2 and count5 >=3:
-        return print(True)
+        return True
     else:
-        return print(False)
+        return False
     
-nineteenAndFive(l1)
-nineteenAndFive(l2)
-nineteenAndFive(l3)
+if __name__ == "__main__":
+    print(nineteenAndFive(l1))
+    print(nineteenAndFive(l2))
+    print(nineteenAndFive(l3))
 
 
 

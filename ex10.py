@@ -15,7 +15,9 @@ def eraseWhitespace(s):
         if st.count("(") == st.count(")"):
             l.append(st)
             st = ""
-    return print(l)
-eraseWhitespace(s1)
-eraseWhitespace(s2)
+    return l
+
+if __name__ == "__main__":
+    print(eraseWhitespace(s1))
+    print(eraseWhitespace(s2))
 

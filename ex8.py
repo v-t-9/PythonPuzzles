@@ -25,8 +25,9 @@ def stringsAndSeparators(s):
     s1 = s[:(x)] + s[(x+1):]
     l = s1.split(" ")
     l1 = [l, sep]
-    return print(l1)
+    return l1
 
-stringsAndSeparators(s1)
-stringsAndSeparators(s2)
-stringsAndSeparators(s3)
+if __name__ == "__main__":
+    print(stringsAndSeparators(s1))
+    print(stringsAndSeparators(s2))
+    print(stringsAndSeparators(s3))

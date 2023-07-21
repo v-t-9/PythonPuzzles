@@ -15,21 +15,22 @@ def differentint100(l):
         for i in range(0, len(l)):
             if type(l[i]) == int:
                 if l[i] - l[i+1] == -10:
-                    return print(True)
+                    return True
                 else: 
-                    return print(False)
+                    return False
             else: 
-                return print(False)
+                return False
         for i in range(0,l[::-1]):
             if type(l[i]) == int:
                 if i - (i+1) == 10:
-                    return print(True)
+                    return True
                 else: 
-                    return print(False)
+                    return False
             else: 
-                return print(False)
+                return False
     else:
-        return print(False)    
-    
-differentint100(l1)
-differentint100(l2)
+        return False
+
+if __name__ == "__main__":
+    print(differentint100(l1))
+    print(differentint100(l2))

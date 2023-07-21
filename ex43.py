@@ -31,9 +31,11 @@ def consString(n, s):
     if numConsonants(i) == n:
         res.append(i)
    return res
-print(consString(n1, s1))     
-print(consString(n2, s1)) 
-print(consString(n3, s1)) 
+
+if __name__ == "__main__":
+   print(consString(n1, s1))     
+   print(consString(n2, s1)) 
+   print(consString(n3, s1)) 
 
 
 

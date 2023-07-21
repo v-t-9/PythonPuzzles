@@ -17,6 +17,7 @@ def dic_key_case(d):
     upper_case = [ i for i in dic_keys if i.isupper()]
     if len(upper_case) == 1:
         return upper_case[0]
-
-print(dic_key_case(d1))
-print(dic_key_case(d2))
+    
+if __name__ == "__main__":
+    print(dic_key_case(d1))
+    print(dic_key_case(d2))

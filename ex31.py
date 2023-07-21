@@ -18,5 +18,7 @@ def coordinates(l):
 
     res = [[0,0], [side1, 0], [x,y]]
     return res
-print(coordinates(l1))
-print(coordinates(l2))
+
+if __name__ == "__main__":
+    print(coordinates(l1))
+    print(coordinates(l2))

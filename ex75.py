@@ -26,7 +26,10 @@ def reorder(l):
     else:
         res = sorted(l, reverse=True)
         return res
-print(reorder(l1))
-print(reorder(l2))
-print(reorder(l3))
-print(reorder(l4))
+    
+    
+if __name__ == "__main__":
+    print(reorder(l1))
+    print(reorder(l2))
+    print(reorder(l3))
+    print(reorder(l4))

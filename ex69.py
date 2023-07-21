@@ -13,5 +13,7 @@ def rearranging_characters(s):
     r = ["".join(i) for i in l1]
     res = " ".join(r) 
     return res
-print(rearranging_characters(s1))
-print(rearranging_characters(s2))
+
+if __name__ == "__main__":
+    print(rearranging_characters(s1))
+    print(rearranging_characters(s2))

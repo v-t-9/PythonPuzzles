@@ -11,5 +11,7 @@ l2 = [1, 2, 8, 3, 9, 4]
 def even_elements_odd_indices(l):
     res = [sum(l[i] for i in range(len(l)) if i % 2 !=0 and l[i] % 2 == 0)]
     return res[0]
-print(even_elements_odd_indices(l1))
-print(even_elements_odd_indices(l2))
+
+if __name__ == "__main__":
+    print(even_elements_odd_indices(l1))
+    print(even_elements_odd_indices(l2))

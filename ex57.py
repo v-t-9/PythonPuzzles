@@ -26,7 +26,8 @@ def sum_of_magnitudes(l):
         sumnum = [ sum(abs(i) if i < 0 else i for i in l)]
         return sumnum
     
-print(sum_of_magnitudes(l1))
-print(sum_of_magnitudes(l2))
-print(sum_of_magnitudes(l3))
-print(sum_of_magnitudes(l4))
+if __name__ == "__main__":
+    print(sum_of_magnitudes(l1))
+    print(sum_of_magnitudes(l2))
+    print(sum_of_magnitudes(l3))
+    print(sum_of_magnitudes(l4))

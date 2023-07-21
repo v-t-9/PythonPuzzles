@@ -15,6 +15,7 @@ l3 = [10, 42, 17, 9, 1315182, 184, 102, 29, 15, 39, 755]
 
 sum_num = lambda l: 0 - sum(l)
 
-print(sum_num(l1))
-print(sum_num(l2))
-print(sum_num(l3))
+if __name__ == "__main__":
+    print(sum_num(l1))
+    print(sum_num(l2))
+    print(sum_num(l3))

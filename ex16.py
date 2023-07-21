@@ -23,6 +23,8 @@ def substrInStr(l, substr):
         if substr in i:
             res.append(i)
     return res
-print(substrInStr(l1, subst1))
-print(substrInStr(l2, subst2))
-print(substrInStr(l2, subst3))
+
+if __name__ == "__main__":
+    print(substrInStr(l1, subst1))
+    print(substrInStr(l2, subst2))
+    print(substrInStr(l2, subst3))

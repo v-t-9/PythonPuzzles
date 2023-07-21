@@ -15,5 +15,7 @@ def sum0Indexes(l):
             r.append(l.index(i))
     return r
 
-print(sum0Indexes(l1))
-print(sum0Indexes(l2))
+
+if __name__ == "__main__":
+    print(sum0Indexes(l1))
+    print(sum0Indexes(l2))

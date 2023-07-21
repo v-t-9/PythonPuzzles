@@ -18,10 +18,12 @@ def sumofi(l):
     for i in l:
         sum = sum + i
     if sum == le:
-        return print(True)
+        return True
     else:
-        return print(False)
-sumofi(l1)
-sumofi(l2)
-sumofi(l3)
-sumofi([0, 1, 0, 0, 0, 5])
+        return False
+    
+if __name__ == "__main__":
+    print(sumofi(l1))
+    print(sumofi(l2))
+    print(sumofi(l3))
+    

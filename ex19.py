@@ -31,6 +31,8 @@ def splitStrings(st):
             res = res + st[i]
             r = list(res)
     return r 
-print(splitStrings(s1))
-print(splitStrings(s2))
-print(splitStrings(s3))
+
+if __name__ == "__main__":
+    print(splitStrings(s1))
+    print(splitStrings(s2))
+    print(splitStrings(s3))

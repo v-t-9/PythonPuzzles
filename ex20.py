@@ -21,6 +21,8 @@ def direction(l):
             return f"Decreasing"
         else:
              return f"Not a monotonic sequence"
-print(direction(l1))
-print(direction(l2))
-print(direction(l3))
+        
+if __name__ == "__main__":
+    print(direction(l1))
+    print(direction(l2))
+    print(direction(l3))

@@ -33,6 +33,8 @@ def wordToNum(s):
             res = res + " " +key
 
     return res
-print(wordToNum(s1))
-print(wordToNum(s2))
-print(wordToNum(s3))
+
+if __name__ == "__main__":
+    print(wordToNum(s1))
+    print(wordToNum(s2))
+    print(wordToNum(s3))

@@ -27,8 +27,10 @@ def largestNum(l, k):
     for i in range(k):
         res.append(r[i])
     return res
-print(largestNum(l ,k1))
-print(largestNum(l ,k2))
-print(largestNum(l ,k3))
-print(largestNum(l ,k4))
-print(largestNum(l ,k5))
+
+if __name__ == "__main__":
+    print(largestNum(l ,k1))
+    print(largestNum(l ,k2))
+    print(largestNum(l ,k3))
+    print(largestNum(l ,k4))
+    print(largestNum(l ,k5))

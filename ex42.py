@@ -16,6 +16,8 @@ def distinctCharacters(s):
     for i in se:
         l.append(i)
     return sorted(l)
-print(distinctCharacters(s1))
-print(distinctCharacters(s2))
-print(distinctCharacters(s3))
+
+if __name__ == "__main__":
+    print(distinctCharacters(s1))
+    print(distinctCharacters(s2))
+    print(distinctCharacters(s3))

@@ -28,7 +28,7 @@ def closest_pair(l):
     res = [l.index(i) for i in sorted(num)]
 
     return res
-
-print(closest_pair(l1))
-print(closest_pair(l2))
-print(closest_pair(l3))
+if __name__ == "__main__":
+    print(closest_pair(l1))
+    print(closest_pair(l2))
+    print(closest_pair(l3))

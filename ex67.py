@@ -15,6 +15,6 @@ def ASCII_incremented(s, shift):
     res = [chr(i) for i in num]
     r = "".join(res)
     return r
-
-print(ASCII_incremented(s1,shift1))
-print(ASCII_incremented(s2,shift2))
+if __name__ == "__main__":
+    print(ASCII_incremented(s1,shift1))
+    print(ASCII_incremented(s2,shift2))

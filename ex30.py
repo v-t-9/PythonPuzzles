@@ -24,5 +24,7 @@ def fewerTotalChar(l):
     for i in range(len(num)):
         if min(num):
             return l[i]
-print(fewerTotalChar(l1))
-print(fewerTotalChar(l2))
+        
+if __name__ == "__main__":
+    print(fewerTotalChar(l1))
+    print(fewerTotalChar(l2))

@@ -15,10 +15,11 @@ n3 = 854
 
 def expAndReminder(n):
     if n > 4**4 and n % 34 == 4:
-        return print(True)
+        return True
     else:
-        return print(False)
+        return False
 
-expAndReminder(n1)
-expAndReminder(n2)
-expAndReminder(n3)
+if __name__ == "__main__":
+   print(expAndReminder(n1))
+   print(expAndReminder(n2))
+   print(expAndReminder(n3))

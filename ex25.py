@@ -15,5 +15,7 @@ def findXOR(l):
     n2 = int(s2,2)
     res = bin(n1^n2)
     return res
-print(findXOR(l1))
-print(findXOR(l2))
+
+if __name__ == "__main__":
+    print(findXOR(l1))
+    print(findXOR(l2))

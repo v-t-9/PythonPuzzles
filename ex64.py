@@ -23,5 +23,6 @@ def str_len_prime(s):
     
     r = " ".join(res)
     return r
-print(str_len_prime(s1))
-print(str_len_prime(s2))
+if __name__ == "__main__":
+    print(str_len_prime(s1))
+    print(str_len_prime(s2))

@@ -13,5 +13,7 @@ def upperEven(s):
             if i % 2 == 0:
                 res.append(i)
     return res
-print(upperEven(s1))
-print(upperEven(s2))
+
+if __name__ == "__main__":
+    print(upperEven(s1))
+    print(upperEven(s2))

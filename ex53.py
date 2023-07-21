@@ -22,7 +22,9 @@ def product_units(l):
         res = res * int(str(i)[-1])
     return res
 
-print(product_units(l1))
-print(product_units(l2))
-print(product_units(l3))
-print(product_units(l4))
+    
+if __name__ == "__main__":
+    print(product_units(l1))
+    print(product_units(l2))
+    print(product_units(l3))
+    print(product_units(l4))

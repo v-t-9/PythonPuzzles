@@ -21,5 +21,7 @@ def valid_filename(l):
         elif i[:-4].isdigit() and len(i[:-4]) > 3:
             res.append("Yes")
     return res
-print(valid_filename(l1))
-print(valid_filename(l2))
+
+if __name__ == "__main__":
+    print(valid_filename(l1))
+    print(valid_filename(l2))

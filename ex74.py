@@ -15,5 +15,7 @@ def string_space_separated_characters(d):
     for i in r:
         res = res + i + " "
     return res
-print(string_space_separated_characters(d1))
-print(string_space_separated_characters(d2))
+
+if __name__ == "__main__":
+    print(string_space_separated_characters(d1))
+    print(string_space_separated_characters(d2))

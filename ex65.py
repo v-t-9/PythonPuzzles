@@ -32,8 +32,10 @@ def shift(n,shift):
         return s[shift:] + s[:shift]
     else:
         return s[::-1]
-print(shift(n1,shift1))
-print(shift(n2,shift2))
-print(shift(n3,shift3))
-print(shift(n4,shift4))
-print(shift(n5,shift5))
+    
+if __name__ == "__main__":
+    print(shift(n1,shift1))
+    print(shift(n2,shift2))
+    print(shift(n3,shift3))
+    print(shift(n4,shift4))
+    print(shift(n5,shift5))

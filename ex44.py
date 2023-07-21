@@ -41,6 +41,8 @@ def Prime(s):
             res.append(False)
     return res
 
-print(Prime(s1))
-print(Prime(s2))
-print(Prime(s3))
+
+if __name__ == "__main__":
+    print(Prime(s1))
+    print(Prime(s2))
+    print(Prime(s3))

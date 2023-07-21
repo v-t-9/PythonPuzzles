@@ -17,7 +17,8 @@ def stringList(l, p):
     for i in l:
         if i.startswith(p):
             res.append(i)
-    return print(res)
-       
-stringList(l1,p1)
-stringList(l2,p2)
+    return res
+
+if __name__ == "__main__":      
+    print(stringList(l1,p1))
+    print(stringList(l2,p2))

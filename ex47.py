@@ -33,6 +33,8 @@ def moreThanZero(l):
         if li[i] >0:
             res.append(l[i])
     return res
-print(moreThanZero(l1))
-print(moreThanZero(l2))
-print(moreThanZero(l3))
+
+if __name__ == "__main__":
+    print(moreThanZero(l1))
+    print(moreThanZero(l2))
+    print(moreThanZero(l3))

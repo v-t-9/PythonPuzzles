@@ -18,6 +18,8 @@ def uniqueCharacters(l):
     for i in l:
         if len(i) == m:
             return i
+        
 
-print(uniqueCharacters(l1))
-print(uniqueCharacters(l2))
+if __name__ == "__main__":
+    print(uniqueCharacters(l1))
+    print(uniqueCharacters(l2))

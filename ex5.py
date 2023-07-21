@@ -22,12 +22,13 @@ def substring(l):
     s2 = l[len(l)-2]
 
     if s2 in s1:
-        return print(True)
+        return True
     else:
-        return print(False)
+        return False
 
-substring(l1)
-substring(l2)
-substring(l3)
-substring(l4)
+if __name__ == "__main__":
+    print(substring(l1))
+    print(substring(l2))
+    print(substring(l3))
+    print(substring(l4))
 

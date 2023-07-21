@@ -25,9 +25,11 @@ def largestDivisor(n):
         if n % i == 0:
             res.append(i)
     return f" The largest integer divisor of {n} is {max(res)}" 
-print(largestDivisor(n1))
-print(largestDivisor(n2))
-print(largestDivisor(n3))
-print(largestDivisor(n4))
-print(largestDivisor(n5))
-print(largestDivisor(n6))
+
+if __name__ == "__main__":
+    print(largestDivisor(n1))
+    print(largestDivisor(n2))
+    print(largestDivisor(n3))
+    print(largestDivisor(n4))
+    print(largestDivisor(n5))
+    print(largestDivisor(n6))

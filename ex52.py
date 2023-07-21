@@ -21,6 +21,8 @@ def reverse_case(l):
         else:
             res.append(i[::-1])
     return res
-print(reverse_case(l1))
-print(reverse_case(l2))
-print(reverse_case(l3))
+
+if __name__ == "__main__":
+    print(reverse_case(l1))
+    print(reverse_case(l2))
+    print(reverse_case(l3))

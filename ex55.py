@@ -23,5 +23,7 @@ def odd_first_and_last(l):
 
     res = [int(i) for i in x]
     return res
-print(odd_first_and_last(l1))
-print(odd_first_and_last(l2))
+
+if __name__ == "__main__":
+    print(odd_first_and_last(l1))
+    print(odd_first_and_last(l2))

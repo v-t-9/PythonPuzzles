@@ -19,9 +19,11 @@ def piles(n):
     l = []
     for i in range(n,(n*3),2):
         l.append(i)
-    return print(l)
-piles(n1)
-piles(n2)
-piles(n3)
-piles(n4)
+    return l
+
+if __name__ == "__main__":
+    print(piles(n1))
+    print(piles(n2))
+    print(piles(n3))
+    print(piles(n4))
 

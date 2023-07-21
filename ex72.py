@@ -19,5 +19,7 @@ def indeces_sum_0(l):
                     r.append(k)
                     res.append(r)
     return res
-print(indeces_sum_0(l1))
-print(indeces_sum_0(l2))
+
+if __name__ == "__main__":
+    print(indeces_sum_0(l1))
+    print(indeces_sum_0(l2))

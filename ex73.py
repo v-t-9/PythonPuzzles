@@ -21,6 +21,8 @@ def vowel_between_consonants(s):
                 res.append(s1)
 
     return res
-print(vowel_between_consonants(s1))
-print(vowel_between_consonants(s2))
-print(vowel_between_consonants(s3))
+
+if __name__ == "__main__":
+    print(vowel_between_consonants(s1))
+    print(vowel_between_consonants(s2))
+    print(vowel_between_consonants(s3))

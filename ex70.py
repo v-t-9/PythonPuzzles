@@ -20,5 +20,6 @@ def negative_balance(l):
         else:
             res.append(None)
     return res
-print(negative_balance(l1))
-print(negative_balance(l2))
+if __name__ == "__main__":
+    print(negative_balance(l1))
+    print(negative_balance(l2))

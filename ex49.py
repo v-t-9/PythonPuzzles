@@ -21,7 +21,9 @@ def frecuency(l):
         else:
             h = -1
     return h
-print(frecuency(l1))
-print(frecuency(l2))
-print(frecuency(l3))
+
+if __name__ == "__main__":
+    print(frecuency(l1))
+    print(frecuency(l2))
+    print(frecuency(l3))
 

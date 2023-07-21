@@ -40,8 +40,8 @@ def not_increasing_order(l):
                 res.append(i+1)
         return res
     
-  
-print(not_increasing_order(l1))
-print(not_increasing_order(l2))
-print(not_increasing_order(l3))
-print(not_increasing_order(l4))
+if __name__ == "__main__":
+    print(not_increasing_order(l1))
+    print(not_increasing_order(l2))
+    print(not_increasing_order(l3))
+    print(not_increasing_order(l4))

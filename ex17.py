@@ -14,6 +14,8 @@ def strToNInclusive(n):
     for i in range(n+1):
         st = st + str(i) + " "
     return st
-print(strToNInclusive(n1))
-print(strToNInclusive(n2))
+
+if __name__ == "__main__":
+    print(strToNInclusive(n1))
+    print(strToNInclusive(n2))
     

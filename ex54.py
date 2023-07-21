@@ -14,6 +14,6 @@ def duplicates(l):
         if i not in res:
             res.append(i)
     return res
-
-print(duplicates(l1))
-print(duplicates(l2))
+if __name__ == "__main__":
+    print(duplicates(l1))
+    print(duplicates(l2))

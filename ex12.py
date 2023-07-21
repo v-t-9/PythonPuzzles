@@ -11,5 +11,7 @@ def palindromes(l):
             res.append(True)
         if i != i[::-1]:
             res.append(False)
-    return print(res)
-palindromes(l1)
+    return res
+
+if __name__ == "__main__":
+    print(palindromes(l1))

@@ -24,7 +24,9 @@ def flipped(s):
       else:
         res.append(i)
    return (st.join(res))
-print(flipped(s1))
-print(flipped(s2))
-print(flipped(s3))
-print(flipped(s4))
+
+if __name__ == "__main__":
+   print(flipped(s1))
+   print(flipped(s2))
+   print(flipped(s3))
+   print(flipped(s4))

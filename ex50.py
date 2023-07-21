@@ -18,5 +18,7 @@ def even_words(l):
                 res.append(l[i])
     res.sort(key=len)
     return res
-print(even_words(l1))
-print(even_words(l2))
+
+if __name__ == "__main__":
+    print(even_words(l1))
+    print(even_words(l2))

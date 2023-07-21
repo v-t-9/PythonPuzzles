@@ -23,5 +23,7 @@ def raggedMatrix(t, tar):
                 lres = list(res)
                 r.append(lres)
     return r
-print(raggedMatrix(t1,target1))
-print(raggedMatrix(t2,target2))
+
+if __name__ == "__main__":
+    print(raggedMatrix(t1,target1))
+    print(raggedMatrix(t2,target2))

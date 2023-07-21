@@ -16,7 +16,9 @@ def indexThreshold(t, l):
     for i in range(len(l)):
         if l[i] < t:
             r.append(i) 
-    return print(r)
-indexThreshold(t1, l1)
-indexThreshold(t2, l2)
+    return r
+
+if __name__ == "__main__":
+    print(indexThreshold(t1, l1))
+    print(indexThreshold(t2, l2))
 

@@ -21,6 +21,8 @@ def productOddDigits(n):
         return res
     if res == 1:
         return r  
-print(productOddDigits(n1))
-print(productOddDigits(n2))
-print(productOddDigits(n3))
+    
+if __name__ == "__main__":
+    print(productOddDigits(n1))
+    print(productOddDigits(n2))
+    print(productOddDigits(n3))

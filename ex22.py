@@ -15,7 +15,8 @@ def sumASCII(s):
         if i.isupper():
             res = res + ord(i)
     return res
-    
-print(sumASCII(s1))
-print(sumASCII(s2))
+
+if __name__ == "__main__":
+    print(sumASCII(s1))
+    print(sumASCII(s2))
 

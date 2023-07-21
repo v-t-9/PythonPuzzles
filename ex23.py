@@ -19,6 +19,8 @@ def numDrop(l):
         if l[i] < l[i-1]:
             res.append(i)
     return res
-print(numDrop(l1))
-print(numDrop(l2))
-print(numDrop(l3))
+
+if __name__ == "__main__":
+    print(numDrop(l1))
+    print(numDrop(l2))
+    print(numDrop(l3))

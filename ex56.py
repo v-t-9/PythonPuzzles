@@ -22,6 +22,8 @@ def exponent(a,n):
         b = b * a
         count = count + 1
     return count
-print(exponent(a1, n1))
-print(exponent(a2, n2))
-print(exponent(a3, n3))
+
+if __name__ == "__main__":
+    print(exponent(a1, n1))
+    print(exponent(a2, n2))
+    print(exponent(a3, n3))

@@ -44,6 +44,6 @@ def grades(l):
             res.append("F")
     
     return res
-
-print(grades(l1))
-print(grades(l2))
+if __name__ == "__main__":
+    print(grades(l1))
+    print(grades(l2))

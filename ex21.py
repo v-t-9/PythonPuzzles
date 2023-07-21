@@ -19,6 +19,7 @@ def isolatedLetter(l):
             
         res.append(r)
     return res
-        
-print(isolatedLetter(l1))
-print(isolatedLetter(l2))
+
+if __name__ == "__main__":
+    print(isolatedLetter(l1))
+    print(isolatedLetter(l2))
