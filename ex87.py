@@ -8,19 +8,11 @@ s2 = "]]]]]]]]]]]]]]]]][][][][]]]]]]]]]]][[[][[][[[[[][][][]][[[[[[[[[[[[[[[[[["
 # Output:
 # [[][][][]]
 
-# def cons_num(l):
-#     r = []
-#     while sorted(l) == list(range(min(l), max(l)+1)):
-            
-#       return r
-
-
 def nested_str(s):
     a = []
     d = []
     res = []
     l = list(s)
-    #######################################################
     i1 = l.index("[")
     rev = list(reversed(l))
     i2 = rev.index("]")
@@ -46,8 +38,9 @@ def nested_str(s):
     res = "".join(b)
     return res
 
-print(nested_str(s1))
-print(nested_str(s2))
+if __name__ == "__main__":
+     print(nested_str(s1))
+     print(nested_str(s2))
 
 
    
