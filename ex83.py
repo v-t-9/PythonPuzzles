@@ -1,19 +1,19 @@
 # A string is happy if every three consecutive characters are distinct. 
 # Write a Python program to find two indices associated with a given string being unhappy.
 # Input:
-s1 = "Python"
+# s1 = "Python"
 # Output:
 # None
 # Input:
-s2 =  "Unhappy"
+# s2 =  "Unhappy"
 # Output:
 # [4, 5]
 # Input:
-s3 = "Find"
+# s3 = "Find"
 # Output:
 # None
 # Input:
-s4 = "Street"
+# s4 = "Street"
 # Output:
 # [3, 4]
 
@@ -35,6 +35,10 @@ def happy_unhappy(s):
      
 
 if __name__ == "__main__":
+    s1 = "Python"
+    s2 =  "Unhappy"
+    s3 = "Find"
+    s4 = "Street"
     print(happy_unhappy(s1))
     print(happy_unhappy(s2))
     print(happy_unhappy(s3))

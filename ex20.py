@@ -1,15 +1,12 @@
 # Write a Python program to determine the direction ('increasing' or 'decreasing') of 
 #monotonic sequence numbers.
-# Input:
-l1 = [1, 2, 3, 4, 5, 6]
+# Input:  [1, 2, 3, 4, 5, 6]
 # Output:
 # Increasing.
-# Input:
-l2 = [6, 5, 4, 3, 2, 1]
+# Input:  [6, 5, 4, 3, 2, 1]
 # Output:
 # Decreasing.
-# Input:
-l3 = [19, 19, 5, 5, 5, 5, 5]
+# Input: [19, 19, 5, 5, 5, 5, 5]
 # Output:
 # Not a monotonic sequence!
 
@@ -23,6 +20,9 @@ def direction(l):
              return f"Not a monotonic sequence"
         
 if __name__ == "__main__":
+    l1 = [1, 2, 3, 4, 5, 6]
+    l2 = [6, 5, 4, 3, 2, 1]
+    l3 = [19, 19, 5, 5, 5, 5, 5]
     print(direction(l1))
     print(direction(l2))
     print(direction(l3))

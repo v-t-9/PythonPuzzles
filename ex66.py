@@ -1,11 +1,11 @@
 # Write a Python program to find the indices of the closest pair from a list of numbers.
-l1 = [1, 7, 9, 2, 10]
+# l1 = [1, 7, 9, 2, 10]
 # Output:
 # [0, 3]
-l2 = [1.1, 4.25, 0.79, 1.0, 4.23]
+# l2 = [1.1, 4.25, 0.79, 1.0, 4.23]
 # Output:
 # [4, 1]
-l3 = [0.21, 11.3, 2.01, 8.0, 10.0, 3.0, 15.2]
+# l3 = [0.21, 11.3, 2.01, 8.0, 10.0, 3.0, 15.2]
 # Output:
 # [2, 5]
 
@@ -29,6 +29,9 @@ def closest_pair(l):
 
     return res
 if __name__ == "__main__":
+    l1 = [1, 7, 9, 2, 10]
+    l2 = [1.1, 4.25, 0.79, 1.0, 4.23]
+    l3 = [0.21, 11.3, 2.01, 8.0, 10.0, 3.0, 15.2]
     print(closest_pair(l1))
     print(closest_pair(l2))
     print(closest_pair(l3))

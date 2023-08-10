@@ -1,7 +1,6 @@
 # Write a Python program to find the largest number where commas 
 # or periods are decimal points.
-# Input:
-l1 = ['100', '102,1', '101.1']
+# Input: ['100', '102,1', '101.1']
 # Output:
 # 102.1
 def largestNumberPoint(l):
@@ -15,4 +14,5 @@ def largestNumberPoint(l):
     return max(r)
 
 if __name__ == "__main__":
+    l1 = ['100', '102,1', '101.1']
     print(largestNumberPoint(l1))

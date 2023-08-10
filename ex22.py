@@ -1,11 +1,9 @@
 # Write a Python program to compute the sum of the ASCII values 
 # of the upper-case characters in a given string.
-# Input:
-s1 = "PytHon ExerciSEs"
+# Input: "PytHon ExerciSEs"
 # Output:
 # 373
-# Input:
-s2 = "JavaScript"
+# Input: "JavaScript"
 # Output:
 # 157
 
@@ -17,6 +15,8 @@ def sumASCII(s):
     return res
 
 if __name__ == "__main__":
+    s1 = "PytHon ExerciSEs"
+    s2 = "JavaScript"
     print(sumASCII(s1))
     print(sumASCII(s2))
 

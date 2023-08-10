@@ -1,16 +1,16 @@
 # Given an array of numbers representing a branch on a binary tree, write a Python program to find the minimum even value and its index. In the case of a tie, return the smallest index. If there are no even numbers, the answer is [].
 # Input:
-l1 =[1, 9, 4, 6, 10, 11, 14, 8]
+# l1 =[1, 9, 4, 6, 10, 11, 14, 8]
 # Output:
 # Minimum even value and its index of the said array of numbers:
 # [4, 2]
 # Input:
-l2 = [1, 7, 4, 4, 9, 2]
+# l2 = [1, 7, 4, 4, 9, 2]
 # Output:
 # Minimum even value and its index of the said array of numbers:
 # [2, 5]
 # Input:
-l3 = [1, 7, 7, 5, 9]
+# l3 = [1, 7, 7, 5, 9]
 # Output:
 # Minimum even value and its index of the said array of numbers:
 # []
@@ -34,6 +34,9 @@ def minValueIndex(l):
         return [mi, pos]
     
 if __name__ == "__main__":
+    l1 =[1, 9, 4, 6, 10, 11, 14, 8]
+    l2 = [1, 7, 4, 4, 9, 2]
+    l3 = [1, 7, 7, 5, 9]
     print(minValueIndex(l1))
     print(minValueIndex(l2))
     print(minValueIndex(l3))

@@ -1,18 +1,18 @@
 # Write a Python program to find the largest negative and smallest positive numbers (or 0 if none).
 # Input:
-l1 = [-12, -6, 300, -40, 2, 2, 3, 57, -50, -22, 12, 40, 9, 11, 18]
+# l1 = [-12, -6, 300, -40, 2, 2, 3, 57, -50, -22, 12, 40, 9, 11, 18]
 # Output:
 # [-6, 2]
 # Input:
-l2 = [-1, -2, -3, -4]
+# l2 = [-1, -2, -3, -4]
 # Output:
 # [-1, 0]
 # Input:
-l3 = [1, 2, 3, 4]
+# l3 = [1, 2, 3, 4]
 # Output:
 # [0, 1]
 # Input:
-l4 = []
+# l4 = []
 # Output:
 # [0, 0]
 
@@ -30,6 +30,11 @@ def largest_negative_smallest_positive(l):
         return [max(n), min(p)]
 
 if __name__ == "__main__":
+    l1 = [-12, -6, 300, -40, 2, 2, 3, 57, -50, -22, 12, 40, 9, 11, 18]
+    l2 = [-1, -2, -3, -4]
+    l3 = [1, 2, 3, 4]
+    l4 = []
+
     print(largest_negative_smallest_positive(l1))
     print(largest_negative_smallest_positive(l2))
     print(largest_negative_smallest_positive(l3))

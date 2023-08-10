@@ -11,11 +11,6 @@
 # [(oe,('cat', 'dog', 'shatter', 'donut', 'at', 'todo', ''))]
 # Output:
 # []
-subst1 = "ca"
-l1 = ['cat', 'car', 'fear', 'center']
-subst2 = "o"
-l2 = ['cat', 'dog', 'shatter', 'donut', 'at', 'todo', '']
-subst3 = "oe"
 
 def substrInStr(l, substr):
     res = []
@@ -25,6 +20,11 @@ def substrInStr(l, substr):
     return res
 
 if __name__ == "__main__":
+    subst1 = "ca"
+    l1 = ['cat', 'car', 'fear', 'center']
+    subst2 = "o"
+    l2 = ['cat', 'dog', 'shatter', 'donut', 'at', 'todo', '']
+    subst3 = "oe"   
     print(substrInStr(l1, subst1))
     print(substrInStr(l2, subst2))
     print(substrInStr(l2, subst3))

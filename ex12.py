@@ -1,7 +1,6 @@
 # Write a Python program to check whether the given strings are palindromes or not. 
 # Return True otherwise False.
-# Input:
-l1 = ['palindrome', 'madamimadam', '', 'foo', 'eyes']
+# Input: ['palindrome', 'madamimadam', '', 'foo', 'eyes']
 # Output:
 # [False, True, True, False, False]
 def palindromes(l):
@@ -14,4 +13,5 @@ def palindromes(l):
     return res
 
 if __name__ == "__main__":
+    l1 = ['palindrome', 'madamimadam', '', 'foo', 'eyes']
     print(palindromes(l1))

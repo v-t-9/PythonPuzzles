@@ -1,11 +1,11 @@
 # Write a Python program to find a substring in a given string that contains a vowel between two consonants.
-s1 = "Hello"
+# s1 = "Hello"
 # Output:
 # Hel
-s2 = "Sandwhich"
+# s2 = "Sandwhich"
 # Output:
 # San
-s3 = "Python"
+# s3 = "Python"
 # Output:
 # hon
 
@@ -23,6 +23,10 @@ def vowel_between_consonants(s):
     return res
 
 if __name__ == "__main__":
+    s1 = "Hello"
+    s2 = "Sandwhich"
+    s3 = "Python"
+
     print(vowel_between_consonants(s1))
     print(vowel_between_consonants(s2))
     print(vowel_between_consonants(s3))

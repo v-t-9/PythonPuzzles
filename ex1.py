@@ -1,15 +1,12 @@
 # 1. Write a Python program to find a list of integers with exactly two occurrences
 # of nineteen and at least three occurrences of five. Return True otherwise False.
-# Input:
-l1 = [19, 19, 15, 5, 3, 5, 5, 2]
+# Input: [19, 19, 15, 5, 3, 5, 5, 2]
 # Output:
 # True
-# Input:
-l2 = [19, 15, 15, 5, 3, 3, 5, 2]
+# Input: [19, 15, 15, 5, 3, 3, 5, 2]
 # Output:
 # False
-# Input:
-l3 = [19, 19, 5, 5, 5, 5, 5]
+# Input: [19, 19, 5, 5, 5, 5, 5]
 # Output:
 # True
 
@@ -28,6 +25,9 @@ def nineteenAndFive(l):
         return False
     
 if __name__ == "__main__":
+    l1 = [19, 19, 15, 5, 3, 5, 5, 2]
+    l2 = [19, 15, 15, 5, 3, 3, 5, 2]
+    l3 = [19, 19, 5, 5, 5, 5, 5]
     print(nineteenAndFive(l1))
     print(nineteenAndFive(l2))
     print(nineteenAndFive(l3))

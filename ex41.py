@@ -1,11 +1,11 @@
 # Write a Python program to sort numbers based on strings.
-s1 = "six one four one two three"
+# s1 = "six one four one two three"
 # Output:
 # one two three four six
-s2 = "six one four three two nine eight"
+# s2 = "six one four three two nine eight"
 # Output:
 # one two three four six eight nine
-s3 = "nine eight seven six five four three two one"
+# s3 = "nine eight seven six five four three two one"
 # Output:
 # one two three four five six seven eight nine
 
@@ -35,6 +35,9 @@ def wordToNum(s):
     return res
 
 if __name__ == "__main__":
+    s1 = "six one four one two three"
+    s2 = "six one four three two nine eight"
+    s3 = "nine eight seven six five four three two one"
     print(wordToNum(s1))
     print(wordToNum(s2))
     print(wordToNum(s3))

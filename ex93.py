@@ -1,22 +1,22 @@
 # Write a Python program to find the closest palindrome to a given string.
 # Input:
-s1 = "cat"
+# s1 = "cat"
 # Output:
 # cac
 # Input:
-s2 = "madan"
+# s2 = "madan"
 # Output:
 # madam
 # Input:
-s3 = "radivider"
+# s3 = "radivider"
 # Output:
 # radividar
 # Input:
-s4 = "abc"
+# s4 = "abc"
 # Output:
 # aba
 # Input:
-s5 = "racecbr"
+# s5 = "racecbr"
 # Output:
 # racecar
 
@@ -31,6 +31,11 @@ def closest_palindrome(s):
 
 
 if __name__ == "__main__":
+    s1 = "cat" 
+    s2 = "madan"
+    s3 = "radivider"
+    s4 = "abc"
+    s5 = "racecbr"
     print(closest_palindrome(s1))
     print(closest_palindrome(s2))
     print(closest_palindrome(s3))

@@ -1,10 +1,10 @@
 # Write a Python program to find numbers that are greater than 10 and have odd first and last digits.
 # Input:
-l1 = [1, 3, 79, 10, 4, 1, 39, 62]
+# l1 = [1, 3, 79, 10, 4, 1, 39, 62]
 # Output:
 # [79, 39]
 # Input:
-l2 = [11, 31, 77, 93, 48, 1, 57]
+# l2 = [11, 31, 77, 93, 48, 1, 57]
 # Output:
 # [11, 31, 77, 93, 57]
 
@@ -25,5 +25,7 @@ def odd_first_and_last(l):
     return res
 
 if __name__ == "__main__":
+    l1 = [1, 3, 79, 10, 4, 1, 39, 62]
+    l2 = [11, 31, 77, 93, 48, 1, 57]
     print(odd_first_and_last(l1))
     print(odd_first_and_last(l2))

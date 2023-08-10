@@ -1,15 +1,12 @@
 # Write a Python program to find a list of integers containing exactly four distinct values, 
 # such that no integer repeats twice consecutively among the first twenty entries.
-# Input:
-l1 = [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4]
+# Input: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4]
 # Output:
 # True
-# Input:
-l2 = [1, 2, 3, 3, 1, 2, 3, 3, 1, 2, 3, 3, 1, 2, 3, 3]
+# Input: [1, 2, 3, 3, 1, 2, 3, 3, 1, 2, 3, 3, 1, 2, 3, 3]
 # Output:
 # False
-# Input:
-l3 = [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
+# Input: [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
 # Output:
 # False
 
@@ -28,6 +25,9 @@ def distinctNonConsecutive(l):
         return False
     
 if __name__ == "__main__":
+    l1 = [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4]
+    l2 = [1, 2, 3, 3, 1, 2, 3, 3, 1, 2, 3, 3, 1, 2, 3, 3]
+    l3 = [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
     print(distinctNonConsecutive(l1))
     print(distinctNonConsecutive(l2))
     print(distinctNonConsecutive(l3))

@@ -1,15 +1,15 @@
 # Write a Python program to find strings that, when case is flipped, 
 # give a target where vowels are replaced by characters two later.
-s1 = "Python"
+# s1 = "Python"
 # Output:
 # pYTHQN
-s2 = "aeiou"
+# s2 = "aeiou"
 # Output:
 # CGKQW
-s3 = "Hello, world!"
+# s3 = "Hello, world!"
 # Output:
 # hGLLQ, WQRLD!
-s4 = "AEIOU"
+# s4 = "AEIOU"
 # Output:
 # cgkqw
 
@@ -26,6 +26,10 @@ def flipped(s):
    return (st.join(res))
 
 if __name__ == "__main__":
+   s1 = "Python"
+   s2 = "aeiou"
+   s3 = "Hello, world!"
+   s4 = "AEIOU"
    print(flipped(s1))
    print(flipped(s2))
    print(flipped(s3))

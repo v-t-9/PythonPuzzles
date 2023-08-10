@@ -18,6 +18,10 @@ def odd_increasing(l):
 
 
 if __name__ == "__main__":
+    l1 = [1, 3, 79, 10, 4, 2, 39]
+    l2 = [11, 31, 40, 68, 77, 93, 48, 1, 57]
+    l3 = [9, -2, 3, 4, -2, 0, 2, -3, 8, -1]
+
     print(odd_increasing(l1))
     print(odd_increasing(l2))
     print(odd_increasing(l3))

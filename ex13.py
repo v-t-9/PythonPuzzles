@@ -7,10 +7,7 @@
 # [(do,('cat', 'dog', 'shatter', 'donut', 'at', 'todo'))]
 # Output:
 # ['dog', 'donut']
-p1 = "ca"
-l1 = ['cat', 'car', 'fear', 'center']
-p2 = "do"
-l2 = ['cat', 'dog', 'shatter', 'donut', 'at', 'todo']
+
 
 def stringList(l, p):
     res = []
@@ -20,5 +17,9 @@ def stringList(l, p):
     return res
 
 if __name__ == "__main__":      
+    p1 = "ca"
+    l1 = ['cat', 'car', 'fear', 'center']
+    p2 = "do"
+    l2 = ['cat', 'dog', 'shatter', 'donut', 'at', 'todo']
     print(stringList(l1,p1))
     print(stringList(l2,p2))

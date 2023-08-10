@@ -1,14 +1,14 @@
 # Write a Python program to filter for numbers in a given list whose sum of digits is > 0, where the first digit can be negative.
 # Input:
-l1 = [11, -6, -103, -200]
+# l1 = [11, -6, -103, -200]
 # Output:
 # [11, -103]
 # Input:
-l2 = [1, 7, -4, 4, -9, 2]
+# l2 = [1, 7, -4, 4, -9, 2]
 # Output:
 # [1, 7, 4, 2]
 # Input:
-l3 = [10, -11, -71, -13, 14, -32]
+# l3 = [10, -11, -71, -13, 14, -32]
 # Output:
 # [10, -13, 14]
 
@@ -35,6 +35,9 @@ def moreThanZero(l):
     return res
 
 if __name__ == "__main__":
+    l1 = [11, -6, -103, -200]
+    l2 = [1, 7, -4, 4, -9, 2]
+    l3 = [10, -11, -71, -13, 14, -32]   
     print(moreThanZero(l1))
     print(moreThanZero(l2))
     print(moreThanZero(l3))

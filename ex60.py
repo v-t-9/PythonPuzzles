@@ -5,11 +5,11 @@ l1 = [2, 17, 16, 0, 6, 4, 5]
 # Output:  
 # [2, 4, 16, 17]
 # Input:
-l2 = [1, 2, 19, 16, 6, 4, 10]
+# l2 = [1, 2, 19, 16, 6, 4, 10]
 # Output:
 # l3 = [1, 2, 16, 19]
 # Input:
-l3 = [1, 2, 3, 5, 1, 16, 7, 11, 4]
+# l3 = [1, 2, 3, 5, 1, 16, 7, 11, 4]
 # Output:
 # [1, 2, 3, 4, 5, 7, 11, 16]
 
@@ -48,6 +48,9 @@ def adjacent_to_prime(l):
     res.sort()
     return res
 if __name__ == "__main__":
+    l1 = [2, 17, 16, 0, 6, 4, 5]
+    l2 = [1, 2, 19, 16, 6, 4, 10]
+    l3 = [1, 2, 3, 5, 1, 16, 7, 11, 4]
     print(adjacent_to_prime(l1))
     print(adjacent_to_prime(l2))
     print(adjacent_to_prime(l3))

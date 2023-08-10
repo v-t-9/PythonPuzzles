@@ -1,10 +1,10 @@
 # Write a Python program to find the dictionary key whose case is different from all other keys.
 # Input:
-d1 = {'red': '', 'GREEN': '', 'blue': 'orange'}
+# d1 = {'red': '', 'GREEN': '', 'blue': 'orange'}
 # Output:
 # GREEN
 # Input:
-d2= {'RED': '', 'GREEN': '', 'orange': '#125GD'}
+# d2= {'RED': '', 'GREEN': '', 'orange': '#125GD'}
 # Output:
 # orange
 
@@ -19,5 +19,7 @@ def dic_key_case(d):
         return upper_case[0]
     
 if __name__ == "__main__":
+    d1 = {'red': '', 'GREEN': '', 'blue': 'orange'}
+    d2= {'RED': '', 'GREEN': '', 'orange': '#125GD'}
     print(dic_key_case(d1))
     print(dic_key_case(d2))

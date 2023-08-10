@@ -1,11 +1,11 @@
 # Write a Python program to find which characters of a hexadecimal number correspond to prime numbers.
-s1 = "123ABCD"
+# s1 = "123ABCD"
 # Output:
 # [False, True, True, False, True, False, True]
-s2 = "123456"
+# s2 = "123456"
 # Output:
 # [False, True, True, False, True, False]
-s3 = "FACE"
+# s3 = "FACE"
 # Output:
 # [False, False, False, False]
 
@@ -43,6 +43,9 @@ def Prime(s):
 
 
 if __name__ == "__main__":
+    s1 = "123ABCD"
+    s2 = "123456"
+    s3 = "FACE"
     print(Prime(s1))
     print(Prime(s2))
     print(Prime(s3))

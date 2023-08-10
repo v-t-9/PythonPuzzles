@@ -1,10 +1,8 @@
 #  Write a Python program to find the XOR of two given strings interpreted as binary numbers.
-# Input:
-l1 = ['0001', '1011']
+# Input: ['0001', '1011']
 # Output:
 # 0b1010
-# Input:
-l2 = ['100011101100001', '100101100101110']
+# Input: ['100011101100001', '100101100101110']
 # Output:
 # 0b110001001111
 
@@ -17,5 +15,7 @@ def findXOR(l):
     return res
 
 if __name__ == "__main__":
+    l1 = ['0001', '1011'] 
+    l2 = ['100011101100001', '100101100101110']
     print(findXOR(l1))
     print(findXOR(l2))

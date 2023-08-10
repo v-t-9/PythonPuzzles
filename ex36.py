@@ -1,22 +1,22 @@
 # Write a Python program to find the largest k numbers from a given list of numbers.
-l = [1, 2, 3, 4, 5, 5, 3, 6, 2]
-k1 = 1
+# l = [1, 2, 3, 4, 5, 5, 3, 6, 2]
+# k1 = 1
 # Output:
 # [6]
 # Input:  [1, 2, 3, 4, 5, 5, 3, 6, 2]
-k2 = 2
+# k2 = 2
 # Output:
 # [6, 5]
 # Input: [1, 2, 3, 4, 5, 5, 3, 6, 2]
-k3 = 3
+# k3 = 3
 # Output:
 # [6, 5, 5]
 # Input:  [1, 2, 3, 4, 5, 5, 3, 6, 2]
-k4 = 4
+# k4 = 4
 # Output:
 # [6, 5, 5, 4]
 # Input: [1, 2, 3, 4, 5, 5, 3, 6, 2]
-k5 = 5
+# k5 = 5
 # Output:
 # [6, 5, 5, 4, 3]
 
@@ -29,6 +29,12 @@ def largestNum(l, k):
     return res
 
 if __name__ == "__main__":
+    l = [1, 2, 3, 4, 5, 5, 3, 6, 2]
+    k1 = 1
+    k2 = 2
+    k3 = 3
+    k4 = 4
+    k5 = 5
     print(largestNum(l ,k1))
     print(largestNum(l ,k2))
     print(largestNum(l ,k3))

@@ -1,8 +1,8 @@
 # Write a Python program to find an integer (n >= 0) with the given number of even and odd digits.
 # Input:
 # Number of even digits: 2 ,Number of odd digits: 3
-e1 = 2
-o1 = 3
+# e1 = 2
+# o1 = 3
 # Output:
 # 22333
 # Input:
@@ -28,5 +28,9 @@ def digits(o,e):
 
 
 if __name__ == "__main__":
+    e1 = 2
+    o1 = 3
+    e2 = 4
+    o2 = 7
     print(digits(o1,e1))
     print(digits(o2,e2))

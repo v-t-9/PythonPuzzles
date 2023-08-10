@@ -1,10 +1,8 @@
 # Write a Python program to find the length of a given list of non-empty strings.
-# Input:
-l1 = ['cat', 'car', 'fear', 'center']
+# Input: ['cat', 'car', 'fear', 'center']
 # Output:
 # [3, 3, 4, 6]
-# Input:
-l2 = ['cat', 'dog', 'shatter', 'donut', 'at', 'todo', '']
+# Input:  ['cat', 'dog', 'shatter', 'donut', 'at', 'todo', '']
 # Output:
 # [3, 3, 7, 5, 2, 4, 0]
  
@@ -15,5 +13,7 @@ def lengthString(l):
     return lengths
 
 if __name__ == "__main__":
+    l1 = ['cat', 'car', 'fear', 'center']
+    l2 = ['cat', 'dog', 'shatter', 'donut', 'at', 'todo', '']
     print(lengthString(l1))
     print(lengthString(l2))

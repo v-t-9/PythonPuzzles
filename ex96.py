@@ -1,10 +1,10 @@
 # Write a Python program to get the single digits in numbers sorted backwards and converted into English words.
 # Input:
-l1 = [1, 3, 4, 5, 11]
+# l1 = [1, 3, 4, 5, 11]
 # Output:
 # ['five', 'four', 'three', 'one']
 # Input:
-l2 = [27, 3, 8, 5, 1, 31]
+# l2 = [27, 3, 8, 5, 1, 31]
 # Output:
 # ['eight', 'five', 'three', 'one']
 
@@ -27,5 +27,7 @@ def words_digits_backwards(l):
     return list(reversed(res))
 
 if __name__ == "__main__":
+    l1 = [1, 3, 4, 5, 11]
+    l2 = [27, 3, 8, 5, 1, 31]
     print(words_digits_backwards(l1))
     print(words_digits_backwards(l2))

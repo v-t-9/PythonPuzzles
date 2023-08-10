@@ -1,19 +1,19 @@
 # Write a Python program to find the sum of the magnitudes of the elements in the array. 
 # This sum should have a sign that is equal to the product of the signs of the entries.
 # Input:
-l1 = [1, 3, -2]
+# l1 = [1, 3, -2]
 # Output:
 # -6
 # Input:
-l2 = [1, -3, 3]
+# l2 = [1, -3, 3]
 # Output:
 # -7
 # Input:
-l3 = [10, 32, 3]
+# l3 = [10, 32, 3]
 # Output:
 # 45
 # Input:
-l4 = [-25, -12, -23]
+# l4 = [-25, -12, -23]
 # Output:
 # -60
 
@@ -27,6 +27,10 @@ def sum_of_magnitudes(l):
         return sumnum
     
 if __name__ == "__main__":
+    l1 = [1, 3, -2]
+    l2 = [1, -3, 3]
+    l3 = [10, 32, 3]
+    l4 = [-25, -12, -23]
     print(sum_of_magnitudes(l1))
     print(sum_of_magnitudes(l2))
     print(sum_of_magnitudes(l3))

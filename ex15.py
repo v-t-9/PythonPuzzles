@@ -1,11 +1,9 @@
 from ex14 import lengthString
 # Write a Python program to find the longest string in a given list of strings.
-# Input:
-l1 = ['cat', 'car', 'fear', 'center']
+# Input: ['cat', 'car', 'fear', 'center']
 # Output:
 # center
-# Input:
-l2 = ['cat', 'dog', 'shatter', 'donut', 'at', 'todo', '']
+# Input: ['cat', 'dog', 'shatter', 'donut', 'at', 'todo', '']
 # Output:
 # shatter
 
@@ -16,5 +14,7 @@ def longestString(l):
     return l[pos]
 
 if __name__ == "__main__":
+    l1 = ['cat', 'car', 'fear', 'center']
+    l2 = ['cat', 'dog', 'shatter', 'donut', 'at', 'todo', '']
     print(longestString(l1))
     print(longestString(l2))

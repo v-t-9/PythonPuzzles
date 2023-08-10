@@ -11,10 +11,7 @@
 # Input: 17
 # Output:
 # [17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49]
-n1 = 2
-n2 = 10
-n3 = 3
-n4 = 17
+
 def piles(n):
     l = []
     for i in range(n,(n*3),2):
@@ -22,6 +19,10 @@ def piles(n):
     return l
 
 if __name__ == "__main__":
+    n1 = 2
+    n2 = 10
+    n3 = 3
+    n4 = 17
     print(piles(n1))
     print(piles(n2))
     print(piles(n3))

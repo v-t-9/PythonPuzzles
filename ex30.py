@@ -1,10 +1,10 @@
 #  Write a Python program to find a list of strings that have fewer total characters (including repetitions).
 # Input:
-l1 = [['this', 'list', 'is', 'narrow'], ['I', 'am', 'shorter but wider']]
+# l1 = [['this', 'list', 'is', 'narrow'], ['I', 'am', 'shorter but wider']]
 # Output:
 # ['this', 'list', 'is', 'narrow']
 # Input:
-l2 = [['Red', 'Black', 'Pink'], ['Green', 'Red', 'White']]
+# l2 = [['Red', 'Black', 'Pink'], ['Green', 'Red', 'White']]
 # Output:
 # ['Red', 'Black', 'Pink']
 
@@ -26,5 +26,7 @@ def fewerTotalChar(l):
             return l[i]
         
 if __name__ == "__main__":
+    l1 = [['this', 'list', 'is', 'narrow'], ['I', 'am', 'shorter but wider']]
+    l2 = [['Red', 'Black', 'Pink'], ['Green', 'Red', 'White']]
     print(fewerTotalChar(l1))
     print(fewerTotalChar(l2))

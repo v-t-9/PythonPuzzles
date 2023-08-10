@@ -1,8 +1,8 @@
 # Write a Python program to create a new string by taking a string, and word by word rearranging its characters in ASCII order.
-s1 = "Ascii character table"
+# s1 = "Ascii character table"
 # Output:
 # Aciis aaccehrrt abelt
-s2 = "maltos won"
+# s2 = "maltos won"
 # Output:
 # almost now
 
@@ -15,5 +15,7 @@ def rearranging_characters(s):
     return res
 
 if __name__ == "__main__":
+    s1 = "Ascii character table"
+    s2 = "maltos won"
     print(rearranging_characters(s1))
     print(rearranging_characters(s2))

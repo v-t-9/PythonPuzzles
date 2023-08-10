@@ -1,18 +1,18 @@
 # Write a Python program to find the product of the units digits in the numbers in a given list.
 # Input:
-l1 = [12, 23]
+# l1 = [12, 23]
 # Output:
 # 6
 # Input:
-l2 = [12, 23, 43]
+# l2 = [12, 23, 43]
 # Output:
 # 18
 # Input:
-l3 = [113, 234]
+# l3 = [113, 234]
 # Output:
 # 12
 # Input:
-l4 = [1002, 2005]
+# l4 = [1002, 2005]
 # Output:
 # 10
 
@@ -24,6 +24,10 @@ def product_units(l):
 
     
 if __name__ == "__main__":
+    l1 = [12, 23]
+    l2 = [12, 23, 43]
+    l3 = [113, 234]
+    l4 = [1002, 2005]
     print(product_units(l1))
     print(product_units(l2))
     print(product_units(l3))

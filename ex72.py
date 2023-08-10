@@ -1,8 +1,8 @@
 # Write a Python program to find the indices of three numbers that sum to 0 in a given list of numbers.
-l1 =[12, -7, 3, -89, 14, 4, -78, -1, 2, 7]
+# l1 =[12, -7, 3, -89, 14, 4, -78, -1, 2, 7]
 # Output:
 # [1, 2, 5]
-l2 =[1, 2, 3, 4, 5, 6, -7]
+# l2 =[1, 2, 3, 4, 5, 6, -7]
 # Output:
 # [2, 3, 6]
 
@@ -21,5 +21,8 @@ def indeces_sum_0(l):
     return res
 
 if __name__ == "__main__":
+    l1 =[12, -7, 3, -89, 14, 4, -78, -1, 2, 7]
+    l2 =[1, 2, 3, 4, 5, 6, -7]
+
     print(indeces_sum_0(l1))
     print(indeces_sum_0(l2))

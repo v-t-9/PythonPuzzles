@@ -1,10 +1,10 @@
 # Write a Python program to find even-length words from a given list of words and sort them by length.
 # Original list of words:
-l1 = ['Red', 'Black', 'White', 'Green', 'Pink', 'Orange']
+# l1 = ['Red', 'Black', 'White', 'Green', 'Pink', 'Orange']
 # Find the even-length words and sort them by length in the said list of words:
 # ['Pink', 'Orange']
 # Original list of words:
-l2 = ['The', 'worm', 'ate', 'a', 'bird', 'imagine', 'that', '!', 'Absurd', '!!']
+# l2 = ['The', 'worm', 'ate', 'a', 'bird', 'imagine', 'that', '!', 'Absurd', '!!']
 # Find the even-length words and sort them by length in the said list of words:
 # ['!!', 'bird', 'that', 'worm', 'Absurd']
 
@@ -20,5 +20,7 @@ def even_words(l):
     return res
 
 if __name__ == "__main__":
+    l1 = ['Red', 'Black', 'White', 'Green', 'Pink', 'Orange']
+    l2 = ['The', 'worm', 'ate', 'a', 'bird', 'imagine', 'that', '!', 'Absurd', '!!']
     print(even_words(l1))
     print(even_words(l2))

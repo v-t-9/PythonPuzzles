@@ -1,12 +1,12 @@
 # Write a Python program to compute the product of the odd digits in 
 # a given number, or 0 if there aren't any.
-n1 = 123456789
+# n1 = 123456789
 # Output:
 # 945
-n2 = 2468
+# n2 = 2468
 # Output:
 # 0
-n3 = 13579
+# n3 = 13579
 # Output:
 # 945
 
@@ -23,6 +23,9 @@ def productOddDigits(n):
         return r  
     
 if __name__ == "__main__":
+    n1 = 123456789
+    n2 = 2468
+    n3 = 13579
     print(productOddDigits(n1))
     print(productOddDigits(n2))
     print(productOddDigits(n3))

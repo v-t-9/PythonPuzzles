@@ -18,6 +18,8 @@ def closest_numbers(l):
 
 
 if __name__ == "__main__":
+    l1 = [1.3, 5.24, 0.89, 21.0, 5.27, 1.3]
+    l2 = [12.02, 20.3, 15.0, 19.0, 11.0, 14.99, 17.0, 17.0, 14.4, 16.8]
 
     print(closest_numbers(l1))
     print(closest_numbers(l2))

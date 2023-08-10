@@ -1,8 +1,8 @@
 #  Write a Python program to find the positions of all uppercase vowels (not counting Y) in even indices of a given string.
-s1 = "w3rEsOUrcE"
+# s1 = "w3rEsOUrcE"
 # Output:
 # [6]
-s2 = "AEIOUYW"
+# s2 = "AEIOUYW"
 # Output:
 # [0, 2, 4]
 
@@ -15,5 +15,7 @@ def upperEven(s):
     return res
 
 if __name__ == "__main__":
+    s1 = "w3rEsOUrcE"
+    s2 = "AEIOUYW"
     print(upperEven(s1))
     print(upperEven(s2))

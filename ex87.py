@@ -1,10 +1,10 @@
 #  Write a Python program to find a valid substring of a given string that contains matching brackets, at least one of which is nested.
 # Input:
-s1 = "]][][[]]]"
+# s1 = "]][][[]]]"
 # Output:
 # [[]]
 # Input:
-s2 = "]]]]]]]]]]]]]]]]][][][][]]]]]]]]]]][[[][[][[[[[][][][]][[[[[[[[[[[[[[[[[["
+# s2 = "]]]]]]]]]]]]]]]]][][][][]]]]]]]]]]][[[][[][[[[[][][][]][[[[[[[[[[[[[[[[[["
 # Output:
 # [[][][][]]
 
@@ -39,6 +39,8 @@ def nested_str(s):
     return res
 
 if __name__ == "__main__":
+     s1 = "]][][[]]]"
+     s2 = "]]]]]]]]]]]]]]]]][][][][]]]]]]]]]]][[[][[][[[[[][][][]][[[[[[[[[[[[[[[[[["
      print(nested_str(s1))
      print(nested_str(s2))
 

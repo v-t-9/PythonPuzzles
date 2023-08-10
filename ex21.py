@@ -1,11 +1,9 @@
 # Write a Python program to check, for each string in a given list, whether the last character 
 # is an isolated letter or not. Return True otherwise False.
-# Input:
-l1 = ['cat', 'car', 'fear', 'center']
+# Input:  ['cat', 'car', 'fear', 'center']
 # Output:
 # [False, False, False, False]
-# Input:
-l2 = ['ca t', 'car', 'fea r', 'cente r']
+# Input:  ['ca t', 'car', 'fea r', 'cente r']
 # Output:
 # [True, False, True, True]
 
@@ -21,5 +19,7 @@ def isolatedLetter(l):
     return res
 
 if __name__ == "__main__":
+    l1 = ['cat', 'car', 'fear', 'center']
+    l2 = ['ca t', 'car', 'fea r', 'cente r']
     print(isolatedLetter(l1))
     print(isolatedLetter(l2))

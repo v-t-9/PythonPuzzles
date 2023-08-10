@@ -9,10 +9,6 @@
 # Even palindromes up to 2000 -
 # [0, 2, 4, 6, 8, 22, 44, 66, 88, 202, 212, 222, 232, 242, 252, 262, 272, 282, 292, 404, 414, 424, 434, 444, 454, 464, 474, 484, 494, 606, 616, 626, 636, 646, 656, 666, 676, 686, 696, 808, 818, 828, 838, 848, 858, 868, 878, 888, 898]
 
-n1 = 50
-n2 = 100
-n3 = 500
-n4 = 2000
 
 def even(n):
     even= []
@@ -31,6 +27,10 @@ def even_palindromes(n):
     return res
 
 if __name__ == "__main__":
+    n1 = 50
+    n2 = 100
+    n3 = 500
+    n4 = 2000
     print(even_palindromes(n1))
     print(even_palindromes(n2))
     print(even_palindromes(n3))
